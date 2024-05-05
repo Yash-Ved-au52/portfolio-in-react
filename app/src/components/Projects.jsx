@@ -15,6 +15,11 @@ function Projects() {
       description: '"The Cloud photo gallery app is a web-based application that allows users to upload, store, and view photos in a gallery. Users can log in / create an account, upload images, and add captions to their images.', 
       github: 'https://github.com/Yash-Ved-au52/cloud_photo_gallery'
     },
+    { 
+      title: 'Property Prime', 
+      description: "Property prime is a leading real state agency that specializes in helping clients buy, sell, and rent properties in the most desirable neighborhoods.", 
+      github: 'https://github.com/Yash-Ved-au52/Property-prime'
+    },
     // Add more projects as needed
   ];
 
