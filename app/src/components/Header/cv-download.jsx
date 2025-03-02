@@ -18,7 +18,12 @@ function CVDownloadButton() {
   };
 
   return (
-    <a className='cv-button' onClick={downloadCV}>Download CV</a>
+    <a
+      onClick={downloadCV}
+      className="px-8 py-3 bg-gradient-to-r from-yellow-500 to-orange-600 text-white rounded-lg text-lg font-semibold hover:from-yellow-600 hover:to-orange-700 transition-all duration-300 transform hover:scale-105 cursor-pointer"
+    >
+      Download CV
+    </a>
   );
 }
 
