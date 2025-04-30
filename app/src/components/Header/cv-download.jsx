@@ -20,8 +20,9 @@ function CVDownloadButton() {
   return (
     <a
       onClick={downloadCV}
-      className="px-8 py-3 bg-gradient-to-r from-yellow-500 to-orange-600 text-white rounded-lg text-lg font-semibold hover:from-yellow-600 hover:to-orange-700 transition-all duration-300 transform hover:scale-105 cursor-pointer"
-    >
+      className="px-6 py-3  rounded-lg text-lg font-semibold border-x-2  hover:bg-transparent hover:border-2 hover:border-[#ff7e5f] hover:text-[#ff7e5f] transition-all duration-300 shadow-lg"
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}>
       Download CV
     </a>
   );

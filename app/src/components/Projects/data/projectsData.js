@@ -24,17 +24,18 @@ const projects = [
     live: "https://amazon-clone-live.vercel.app/",
   },
   {
-    title: "Flavor Fusion",
+    title: "Product Management",
     description:
-      '"Flavor Fusion: Your Personalized Recipe Guide" is a user-friendly and interactive web-based application designed to revolutionize your culinary journey. This platform aims to make recipe discovery and cooking an enjoyable and seamless experience.',
-    //   image: './image/flavor-fusion.png',
-    github: "https://github.com/Yash-Ved-au52/Ff-flavor-fusion_frontend",
+      "A complete MERN stack-based product management application that allows admin users to add, update, delete, and view products. Features include authentication, secure CRUD operations, and an intuitive dashboard UI.",
+    image: "./image/product-management.png",
+    github: "https://github.com/Yash-Ved-au52/product-management",
+    live: "https://store-product-management.vercel.app/", // add if available
   },
   {
     title: "Cloud Photo Gallery",
     description:
       "The Cloud photo gallery app is a web-based application that allows users to upload, store, and view photos in a gallery. Users can log in / create an account, upload images, and add captions to their images.",
-    //   image: './image/cloud-photo-gallery.png',
+    // image: './image/cloud-photo-gallery.png',
     github: "https://github.com/Yash-Ved-au52/cloud_photo_gallery",
     live: "https://cpg.onrender.com/",
   },

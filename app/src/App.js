@@ -5,19 +5,29 @@ import About from './components/About/About';
 import Project from './components/Projects/Projects';
 import Footer from './components/Footer/Footer';
 import Contact from './components/Contact/Contact';
+import { ThemeProvider, useTheme } from './ThemeContext';
+import './App.css';
 
-function App() {
+function MainApp() {
+  const { darkMode } = useTheme();
+
   return (
-    <>
-    <div className=" bg-[#1a1a1a] text-white">
+    <div className={darkMode ? 'bg-black text-white' : 'bg-white text-black'}>
       <Navbar />
       <Home />
       <About />
       <Project />
       <Contact />
       <Footer />
-      </div>
-      </>
+    </div>
+  );
+}
+
+function App() {
+  return (
+    <ThemeProvider>
+      <MainApp />
+    </ThemeProvider>
   );
 }
 
