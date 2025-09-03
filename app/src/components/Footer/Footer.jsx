@@ -38,7 +38,7 @@ function Footer() {
       </div>
 
       <div className="container mx-auto px-4 relative z-10">
-        {/* Social Links  */}
+        {/* Social Links */}
         <motion.div
           className="flex justify-center gap-6 mb-8"
           initial={{ opacity: 0 }}
